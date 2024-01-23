@@ -51,3 +51,5 @@ if submit:
         response = get_gemini_response(input_prompt)
         st.subheader("Response: ")
         st.write(response)
+    else:
+        pass

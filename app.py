@@ -37,7 +37,6 @@ I want the response in one single string having the structure
 {{"JD Match":"%","MissingKeywords:[]","Profile Summary":""}}
 """
 
-#StreamLit App
 st.title("Smart ATS")
 st.text("Improve Your Resume ATS")
 jd=st.text_area("Paste the Job Description")

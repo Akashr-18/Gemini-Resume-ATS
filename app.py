@@ -9,7 +9,7 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
-def get_gemini_response(input, pdf_content, prompt):
+def get_gemini_response(input):
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(input)
     return response.text
@@ -51,4 +51,3 @@ if submit:
         response = get_gemini_response(input_prompt)
         st.subheader("Response: ")
         st.write(response)
-        

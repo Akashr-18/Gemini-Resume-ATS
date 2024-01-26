@@ -6,7 +6,7 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 
 - Upload your resume in PDF format.
 - Enter a job description to evaluate the resume against.
-- Get analysis results including job description match percentage and missing keywords.
+- Get analysis results including job description match percentage, missing keywords and insightful recommendations.
 
 ## Getting Started
 
@@ -15,13 +15,13 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/smart-ats.git
+    git clone https://github.com/Akashr-18/Gemini-Resume-ATS.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd smart-ats
+    cd Gemini-Resume-ATS
     ```
 
 3. Install dependencies:

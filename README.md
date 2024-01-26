@@ -42,6 +42,9 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 
 3. Upload your resume and enter the job description to analyze the resume.
 
+Here's the screenshot of the Streamlit application:
+![Streamlit Application Screenshot](https://imgur.com/a/qys2z2e)
+
 ## Contributing
 
 Contributions are welcome! Here's how you can contribute:

@@ -32,9 +32,30 @@ resume:{pdf_content}
 job_decription:{jd}
 
 Provide the output as json with "JD Match percentage", "MissingKeywords", "Suggestion" as keys
+Output type:
+"JD Match percentage" : Number, 
+"MissingKeywords" : List,
+"Suggestion" : String
 """
 # I want the response in one single string having the structure
 # {{"JD Match percentage":"%","MissingKeywords:[]","Profile Summary":""}}
+
+def set_background(color):
+    if color:
+        hex_color = f"#{color}"
+        st.markdown(
+            f"""
+            <style>
+            body {{
+                background-color: {hex_color};
+            }}
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
+
+background_color = "FFFFFF"  # Hex code for white
+set_background(background_color)
 # Add CSS for background image
 
 # def set_background(style):

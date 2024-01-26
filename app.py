@@ -23,19 +23,17 @@ def get_pdf_content(uploaded_file):
     return pdf_content
 
 input_prompt="""
-Hey Act Like a skilled or very experience ATS(Application Tracking System)
-with a deep understanding of tech field,software engineering,data science ,data analyst
-and big data engineer. Your task is to evaluate the resume based on the given job description.
-You must consider the job market is very competitive and you should provide 
-best assistance for improving thr resumes. Assign the percentage Matching based 
-on Jd and
-the missing keywords with high accuracy
+You are an experienced ATS(Application Tracking System) with a deep understanding of artificial intelligence,data science ,data analyst and big data engineering. 
+You will be provided with 'resume' and 'job_decription'.Your task is to evaluate the 'resume' based on the given 'job_decription'.
+Given how competitive the job market is, you should offer your finest help in order to help the 'resume' stand out. 
+Assign the percentage Matching based on 'job_decription' and the missing keywords with high accuracy
 resume:{pdf_content}
-description:{jd}
+job_decription:{jd}
 
-I want the response in one single string having the structure
-{{"JD Match":"%","MissingKeywords:[]","Profile Summary":""}}
+Provide the output as json with "JD Match percentage", "MissingKeywords" as keys
 """
+# I want the response in one single string having the structure
+# {{"JD Match percentage":"%","MissingKeywords:[]","Profile Summary":""}}
 
 st.title("Smart ATS")
 st.text("Improve Your Resume ATS")

@@ -3,7 +3,6 @@ import os
 import google.generativeai as genai
 from PIL import Image
 import PyPDF2 as pdf
-from pathlib import Path
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -31,50 +30,17 @@ Assign the percentage Matching based on 'job_decription' and the missing keyword
 resume:{pdf_content}
 job_decription:{jd}
 
-Provide the output as json with "JD Match percentage", "MissingKeywords", "Suggestion" as keys
-Output type:
-"JD Match percentage" : Number, 
-"MissingKeywords" : List,
-"Suggestion" : String
+Provide your output in dictionary format with the following Keys "JD Match percentage", "MissingKeywords" and "Suggestion"
 """
-# I want the response in one single string having the structure
-# {{"JD Match percentage":"%","MissingKeywords:[]","Profile Summary":""}}
 
-def set_background(color):
-    if color:
-        hex_color = f"#{color}"
-        st.markdown(
-            f"""
-            <style>
-            body {{
-                background-color: {hex_color};
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True,
-        )
-
-background_color = "FFFFFF"  # Hex code for white
-set_background(background_color)
-# Add CSS for background image
-
-# def set_background(style):
-#     if style:
-#         st.markdown(
-#             f"""
-#             <style>
-#             .reportview-container {{
-#                 background: url("{style}") no-repeat center center fixed;
-#                 background-size: cover;
-#             }}
-#             </style>
-#             """,
-#             unsafe_allow_html=True,
-#         )
-
-# background_image = r"C:\Users\Akash R\OneDrive\Pictures\Background\pexels-miguel-á-padriñán-255379.jpg"
-# background_image = Path(r"C:\Users\Akash R\OneDrive\Pictures\Background\pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg")
-# set_background(background_image)
+custom_css = """
+<style>
+    body {
+        background-color: #ffffff !important;
+    }
+</style>
+"""
+st.markdown(custom_css, unsafe_allow_html=True)
 
 st.title("Smart ATS: Optimize Your Resume")
 
@@ -88,14 +54,6 @@ if submit:
         pdf_content = get_pdf_content(uploaded_file)
         response = get_gemini_response(input_prompt)
         st.subheader("Response: ")
-        # response = eval(response)
-        # st.subheader("JD Match Percentage")
-        # st.write(response['JD Match percentage'])
-        # st.subheader("Missing Keywords")
-        # st.write(response['MissingKeywords'])
-        # st.subheader("Suggestion")
-        # st.write(response['Suggestion'])
-
         st.write(response)
     else:
         pass

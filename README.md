@@ -46,9 +46,12 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 
 <img width="960" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(9).png?raw=true">
 
-#### Copy and Paste the job description :
+#### Copy the job description :
 
 <img width="960" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(5).png?raw=true">
+
+#### Paste the job description :
+
 <img width="960" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(7).png?raw=true">
 
 #### After Resume Analysis:

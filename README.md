@@ -42,16 +42,14 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 
 3. Upload your resume and enter the job description to analyze the resume.
 
-Here's the screenshot of the Streamlit application:
-![Streamlit Application Screenshot](https://imgur.com/a/qys2z2e)
-
 Home page :
+<img width="960" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(7).png?raw=true">
 
-<img width="960" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(2).png?raw=true">
+Copy and Paste the job description :
+<img width="960" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(5).png?raw=true">
 
-After prediction:
-
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/58848985/169639225-12196595-7de7-47bf-bcde-73610e5b28b0.png">
+After Resume Analysis:
+<img width="959" alt="image" src="https://github.com/Akashr-18/Data_Store/blob/main/Screenshot%20(8).png?raw=true">
 
 ## Contributing
 

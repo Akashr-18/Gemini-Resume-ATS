@@ -8,6 +8,16 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 - Enter a job description to evaluate the resume against.
 - Get analysis results including job description match percentage, missing keywords and insightful recommendations.
 
+## Built With
+
+ - Google-generativeai
+ - Streamlit
+ - PyPDF2
+
+## Models used
+
+ - gemini-pro
+   
 ## Getting Started
 
 ### Installation

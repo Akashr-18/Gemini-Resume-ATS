@@ -43,8 +43,8 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 4. Activate the Virtual Environment (Optional)
 
       ```
-       conda activate <Environment_Name>/
-       ```
+      conda activate <Environment_Name>/
+      ```
 
 5. Install dependencies:
 

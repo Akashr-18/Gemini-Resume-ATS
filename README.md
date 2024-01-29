@@ -34,7 +34,19 @@ This Streamlit application is designed to help evaluate resumes based on a provi
     cd Gemini-Resume-ATS
     ```
 
-3. Install dependencies:
+3. Create a Virtual Environment (Optional but recommended)
+
+     ```bash
+     conda create -p <Environment_Name> python==<python version> -y
+     ```
+
+4. Activate the Virtual Environment (Optional)
+
+       ```bash
+       conda activate <Environment_Name>/
+       ```
+
+5. Install dependencies:
 
     ```bash
     pip install -r requirements.txt

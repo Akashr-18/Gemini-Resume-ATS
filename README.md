@@ -42,7 +42,7 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 
 4. Activate the Virtual Environment (Optional)
 
-       ```bash
+       ```
        conda activate <Environment_Name>/
        ```
 

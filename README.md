@@ -52,6 +52,8 @@ This Streamlit application is designed to help evaluate resumes based on a provi
     pip install -r requirements.txt
     ```
 
+6. Make sure you create a file named .env and store your Google API key
+
 ### Usage
 
 1. Run the Streamlit app:

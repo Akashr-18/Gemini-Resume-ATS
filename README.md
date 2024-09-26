@@ -46,7 +46,7 @@ This Streamlit application is designed to help evaluate resumes based on a provi
       conda activate <Environment_Name>/
       ```
 
-5. Install dependencies:
+5. Install yhe dependencies:
 
     ```bash
     pip install -r requirements.txt

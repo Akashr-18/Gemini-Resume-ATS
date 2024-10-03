@@ -29,7 +29,6 @@ Given how competitive the job market is, you should offer your finest help in or
 Assign the percentage Matching based on 'job_decription' and the missing keywords with high accuracy
 resume:{pdf_content}
 job_decription:{jd}
-
 Provide your output in dictionary format with the following Keys "JD Match percentage", "MissingKeywords" and "Suggestion"
 """
 

@@ -21,7 +21,7 @@ def get_pdf_content(uploaded_file):
         pdf_content += str(page_text.extract_text())
     return pdf_content
 
-input_prompt="""
+input_prompt=f"""
 You are an experienced ATS(Application Tracking System) with a deep understanding of artificial intelligence,data science ,data analyst and big data engineering. 
 You will be provided with 'resume' and 'job_decription'.Your task is to evaluate the 'resume' based on the given 'job_decription'.
 Given how competitive the job market is, you should offer your finest help in order to help the 'resume' stand out. 

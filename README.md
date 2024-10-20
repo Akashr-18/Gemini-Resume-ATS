@@ -1,6 +1,6 @@
 # Streamlit Application: Smart ATS
 
-This Streamlit application is designed to help evaluate resumes based on a provided job description using Gemini model by Google..
+This Streamlit application is designed to help evaluate resumes based on a provided job description using Gemini model by Google.
 
 ## Features
 

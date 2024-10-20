@@ -6,7 +6,7 @@ This Streamlit application is designed to help evaluate resumes based on a provi
 
 - Upload your resume in PDF format.
 - Enter a job description to evaluate the resume against.
-- Get the analysis results including job description match percentage, missing keywords and insightful recommendations..
+- Get the analysis results including job description match percentage, missing keywords and insightful recommendations.
 
 ## Built With
 

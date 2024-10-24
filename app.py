@@ -9,7 +9,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
 def get_gemini_response(input):
-    model = genai.GenerativeModel('gemini-1.5-flash-')
+    model = genai.GenerativeModel('gemini-1.5-flash-0')
     response = model.generate_content(input)
     return response.text
 

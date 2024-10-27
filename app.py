@@ -33,8 +33,7 @@ Provide your output in dictionary format with the following Keys "JD Match perce
 
 custom_css = """
 <style>
-    body {
-        background-color: #ffffff !important;}
+    body { background-color: #ffffff !important; }
 </style>
 """
 

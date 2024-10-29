@@ -26,7 +26,7 @@ input_prompt=f"""
 You are an experienced ATS(Application Tracking System) with a deep understanding of artificial intelligence,data science ,data analyst and big data engineering. 
 You will be provided with 'resume' and 'job_decription'.Your task is to evaluate the 'resume' based on the given 'job_decription'.
 Given how competitive the job market is, you should offer your finest help in order to help the 'resume' stand out. 
-Assign the percentage Matching based on 'job_decription' and the missing keywords with high accuracy
+Assign the percentage Matching based on 'job_decription' and the missing keywords with high accuracy.\
 resume:{pdf_content}
 job_decription:{jd}
 Provide your output in dictionary format with the following Keys "JD Match percentage", "MissingKeywords" and "Suggestion"

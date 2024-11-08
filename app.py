@@ -11,8 +11,7 @@ genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 MODEL_NAME = "gemini-1.5-flash-002"
 
 def get_gemini_response(input):
-    generation_config = {"temperature": 0,
-                         "max_output_tokens": 10000} 
+    generation_config = {"temperature": 0, "max_output_tokens": 10000} 
     model = genai.GenerativeModel(MODEL_NAME)
     response = model.generate_content(input)
     return response.text

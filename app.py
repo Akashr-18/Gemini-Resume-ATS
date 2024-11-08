@@ -12,7 +12,7 @@ MODEL_NAME = "gemini-1.5-flash-002"
 
 def get_gemini_response(input):
     generation_config = {"temperature": 0, "max_output_tokens": 10000} 
-    model = genai.GenerativeModel(MODEL_NAME , generation_config=generation_config)
+    model = genai.GenerativeModel(MODEL_NAME , generation_config = generation_config)
     response = model.generate_content(input)
     return response.text
 

@@ -2,6 +2,7 @@ import os
 import streamlit as st
 import PyPDF2 as pdf
 from PIL import Image
+
 import google.generativeai as genai
 
 from dotenv import load_dotenv

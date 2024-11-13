@@ -43,7 +43,6 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 st.title("Smart ATS: Optimize Your Resume")
 jd=st.text_area("Job Description")
-
 uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please uplaod your Resume in pdf format")
 submit = st.button("Analyze Resume")
 

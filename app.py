@@ -47,7 +47,6 @@ uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please upla
 submit = st.button("Analyze Resume")
 
 if submit:
-    
     if uploaded_file is not None:
         pdf_content = get_pdf_content(uploaded_file)
         response = get_gemini_response(input_prompt)
